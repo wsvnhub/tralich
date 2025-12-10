@@ -174,11 +174,10 @@ const App: React.FC = () => {
              </h1>
           </div>
           
-          {/* Firebase Status */}
-          <div className="flex items-center justify-center space-x-1.5 mt-2 animate-fade-in">
-                <Check size={16} className="text-[#005df8]" strokeWidth={3} />
-                <span className="text-xs sm:text-sm font-bold text-[#005df8]">
-                  Hệ thống Online (Cloud)
+          {/* Support Info with Phone Link */}
+          <div className="flex items-center justify-center mt-2 animate-fade-in text-[#005df8]">
+                <span className="text-xs sm:text-sm font-bold text-center">
+                  Đọc kĩ thông tin lịch, hỗ trợ: số <a href="tel:0889555559" className="underline hover:text-blue-700">0889.555.559</a> phím 3 (7-23h30)
                 </span>
           </div>
         </div>
